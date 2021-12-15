@@ -1,5 +1,6 @@
 # Routing in React
 NEED TO RE-WRITE THIS SECTION FOR ROUTER V6
+[React Router Tutorial](https://reactrouter.com/docs/en/v6/getting-started/tutorial#add-some-routes)
 
 Despite an application being a SPA, we'll still want users to have the experience of navigating to different web pages. In order to accomplish this, we want different URI paths to correspond to different views, allowing React to swap out different components based on the desired URI.
 
