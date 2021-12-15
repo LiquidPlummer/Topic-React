@@ -1,5 +1,5 @@
 # React Week
-Kyle Plummer - Substitute Trainer
+Kyle Plummer - Substitute Trainer  
 kyle.plummer@revature.com
 
 
