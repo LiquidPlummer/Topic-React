@@ -53,6 +53,33 @@ const myElement = (
   </React.fragment>
 );
 ```
+There is also a shorthand for React fragments, you can simply use empty tags `<>`, `</>`.
+
+## JS in JSX
+You can embed any valid JavaScript expression in your JSX using `{`curly braces`}`. In the example below, we embed the result of calling a JavaScript function, formatName(user), into an `<h1>` element:
+
+```javascript
+function formatName(user) {
+  return user.firstName + ' ' + user.lastName;
+}
+
+const user = {
+  firstName: 'Harper',
+  lastName: 'Perez'
+};
+
+const element = (
+  <h1>
+    Hello, {formatName(user)}!
+  </h1>
+);
+
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
+```
+
 
 # Using TypeScript with React
 
