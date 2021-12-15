@@ -1,6 +1,7 @@
 # Topic-React
 
  - [JSX/TSX](./fundementals/react-jsx.md)
+ - [Props & State](./fundementals/react-props-state.md)
  - [Events](./fundementals/react-events.md)
  - [Routing](./fundementals/react-routing.md)
  - [Data Binding]()
