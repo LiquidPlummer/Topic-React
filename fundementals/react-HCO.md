@@ -1,4 +1,4 @@
-## High Order Components
+# High Order Components
 
 High order components are functions that take a component and return a new component. The traditional component model transforms props into a portion of the UI. High order components take a component as a parameter and transforms it, returning a new component with added functionality. The idea is based on the idea of a high-order function in JavaScript, where a function is taken as an argument, and another function is returned.
 
