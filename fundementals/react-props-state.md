@@ -39,6 +39,45 @@ If there was a situation where you wanted to change data that is being used, you
 
 If you wanted to use state inside of a functional component, you would need to use hooks. To mutate state, you would need to use the mutator function that you declare while using the hook.
 
+## Immutability
+
+State is defined either by declaring a property of this.state (class components) or by defining state using a lifecycle hook (function components). In either case, you should never be mutating state directly. This value, while able to be changed, should only ever be done so by the appropriate mutator.
+
+_Mutating State in Function Based Components_
+
+```javascript
+import React, { useState } from "react";
+
+const TodoList = () => {
+  let [items, setItems] = useState([
+    /*some items*/
+  ]);
+
+  let count = 0;
+
+  const addItem = () => {
+    setItems([
+      ...items,
+      { id: ++count, value: "new item" },
+    ]); /* new item here is arbitrary*/
+  };
+
+  return (
+    <div>
+      <button onClick={addItem}>Add Item</button>
+      <ul>
+        {items.map((item) => (
+          <li key={item.id}>{item.value}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default TodoList;
+```
+
+
 ## One Way Data Flow
 
 In React, data only moves in one direction. Each component is functional, meaning just like how a function is provided everything it needs to execute through its parameters, components are provided everything it should need to render based on its [props](../02-react-fundamentals/props-and-state.md). For a component to be parameterized it is passed read-only properties from a parent component.
