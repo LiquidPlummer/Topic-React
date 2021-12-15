@@ -1,10 +1,9 @@
 # Topic-React
 
- - [JSX/TSX](./fundementals/react-jsx.md)
+ - [JSX/TSX](./fundementals/react-jsx-tsx.md)
  - [Props & State](./fundementals/react-props-state.md)
  - [Routing](./fundementals/react-routing.md)
  - [Events](./fundementals/react-events.md)
- - [Data Binding]()
  - [Containment and Specialization]()
    - [Higher Order Components](./fundementals/react-HCO.md)
    - [Container Components]()
