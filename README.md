@@ -18,7 +18,8 @@ Build a Celsius-Fahrenheit converter. Create a new react app and add several com
 
 #### Project Time:
 If you finish the lab, or decide your time is better spent on your current project, feel free to work on P1 instead.
-
+  
+  
 ### 12/16/21:
  - Flux design Pattern
  - Destructuring
@@ -26,6 +27,8 @@ If you finish the lab, or decide your time is better spent on your current proje
    - Actions
    - Reducers
    - Store
+   
+   
 
 ### 12/17:21:
  - AJAX
