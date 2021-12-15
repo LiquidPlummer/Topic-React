@@ -38,9 +38,10 @@ import Second from "./components/second";
 ReactDOM.render(
     <BrowserRouter>
         <Routes>
-            <Route path="/" element={<App />} />
-            <Route path="first" element={<First />} />
-            <Route path="second" element={<Second />} />
+            <Route path="/" element={<App />} >
+                <Route path="first" element={<First />} />
+                <Route path="second" element={<Second />} />
+            </Route>
         </Routes>
     </BrowserRouter>,
   document.getElementById('root')
