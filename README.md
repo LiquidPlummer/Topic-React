@@ -32,7 +32,12 @@ If you finish the lab, or decide your time is better spent on your current proje
    - Reducers
    - Store
    
-   
+#### Lab:
+Refactor the Celsius-Fahrenheit converter to use the flux design pattern and a redux store for transferring the data between components. The parent component which contains the Celsius and Fahrenheit views should be the view-controller in our flux design.
+
+#### Project Time:
+If you finish the lab, or decide your time is better spent on your current project, feel free to work on P1 instead.
+
 
 ### 12/17:21:
  - AJAX
