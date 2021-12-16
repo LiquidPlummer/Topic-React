@@ -3,7 +3,7 @@ Kyle Plummer - Substitute Trainer
 kyle.plummer@revature.com
 
 
-## Agenda
+---
 ### 12/15/21
 #### Topics:
  - [JSX/TSX](./fundementals/react-jsx-tsx.md)
@@ -46,3 +46,6 @@ If you finish the lab, or decide your time is better spent on your current proje
  - Axios
  - Fetch
  - Jest
+
+
+---
