@@ -23,7 +23,8 @@ Build a Celsius-Fahrenheit converter. Create a new react app and add several com
 #### Project Time:
 If you finish the lab, or decide your time is better spent on your current project, feel free to work on P1 instead.
   
-  
+---
+
 ### 12/16/21:
  - [Flux design Pattern](./redux/react-flux.md)
  - [Destructuring - JS Syntax](./misc/advanced-js.md#destruction-assignment)
@@ -38,6 +39,7 @@ Refactor the Celsius-Fahrenheit converter to use the flux design pattern and a r
 #### Project Time:
 If you finish the lab, or decide your time is better spent on your current project, feel free to work on P1 instead.
 
+---
 
 ### 12/17:21:
  - AJAX
