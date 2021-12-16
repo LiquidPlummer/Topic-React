@@ -26,7 +26,7 @@ If you finish the lab, or decide your time is better spent on your current proje
   
 ### 12/16/21:
  - [Flux design Pattern](./redux/react-flux.md)
- - [Destructuring - JS Syntax](./misc/advanced-js.md)
+ - [Destructuring - JS Syntax](./misc/advanced-js.md#destruction-assignment)
  - [Redux](./redux/redux.md)
    - Actions
    - Reducers
