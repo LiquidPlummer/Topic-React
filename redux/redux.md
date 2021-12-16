@@ -31,7 +31,7 @@ The store is where Redux keeps state data, outside of the components. From here 
 
 ## Simple Redux Usage
 Create a reducer in it's own js file. This will define the reducer's logic, initial state, and be used to create the store.
-```
+```javascript
 //reducer.js
 const initialState = {
   name: 'default',
@@ -61,7 +61,7 @@ export default function appReducer(state = initialState, action) {
   
   
 Use one or more reduces to create a store. In this step you would combine sliced reducers into a single root reducer with combineReducers();
-```
+```javascript
 //store.js
 import { createStore } from "redux";
 import appReducer from "./reducer";
@@ -73,7 +73,7 @@ export default store;
   
   
 Now you can subscribe to your store in any component that might need to see a change in data. Note how the subscribe() method is used. It is given an arrow function which contains logic to be invoked whenever the store updates, and it returns another function that can be used to unsubscribe when you no longer want to receive store updates.
-```
+```javascript
 //dispatch-component.js
 import store from "./store";
 
