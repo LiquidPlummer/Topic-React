@@ -232,3 +232,42 @@ for (let [key, value] of Object.entries(student)) {
   console.log(`${key}:${value}`); // id:10 name:Alexander  
 }  
 ```
+
+### Iterating Through an Array
+
+You can use a for loop to iterate through an array in JavaScript:
+```javascript
+let list = [1, 2, 3, 4, 5];
+
+// standard for
+for(let i = 0; i < list.length; i++){
+    console.log(list[i]);
+}
+```
+
+Arrays are iterable, and so you can use a `for-in` or `for-of` loop to iterate through an array. `for-in` will iterate through the keys of an array. `for-of` will iterate through the values of the array.
+```javascript
+// for-in
+for(key in list) {
+    // an enhanced for-in loop in JS iterates through
+    // the keys not the values
+    console.log(key);
+    console.log(list[key]);
+}
+
+// for-of
+for(element of list) {
+    // if you say of, it will iterate through the values
+    console.log(element);
+}
+```
+
+There is also the `forEach()` method on the Array Prototype. This function is a functional array method that takes in a callback function and runs that function for each element in the array. The `forEach()` method returns undefined.
+```javascript
+// forEach()
+list.forEach(
+    function(value, index) {
+        console.log(index + ' ' + value);
+    }
+)
+```
