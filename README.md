@@ -25,9 +25,9 @@ If you finish the lab, or decide your time is better spent on your current proje
   
   
 ### 12/16/21:
- - Flux design Pattern
+ - [Flux design Pattern](./redux/react-flux.md)
  - Destructuring
- - Redux
+ - [Redux](./redux/redux.md)
    - Actions
    - Reducers
    - Store
