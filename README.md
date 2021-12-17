@@ -42,10 +42,10 @@ If you finish the lab, or decide your time is better spent on your current proje
 ---
 
 ### 12/17:21:
- - AJAX
- - Axios
- - Fetch
- - Jest
+ - [AJAX](./misc/ajax.md)
+ - [Axios](./misc/axios.md)
+ - [Fetch](./misc/fetch.md)
+ - [Jest](./misc/jest.md)
 
 
 ---
