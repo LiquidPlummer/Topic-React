@@ -192,7 +192,7 @@ Session session = sessionFactory.openSession();
 ```java
 Transaction tx = session.beginTransaction();
 //set of operation performed on DB
-tx..commit();
+tx.commit();
 ```
 
 ## Query
