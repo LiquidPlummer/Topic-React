@@ -45,7 +45,9 @@ If you finish the lab, or decide your time is better spent on your current proje
  - [Axios](./misc/axios.md)
  - [AJAX](./misc/ajax.md)
  - [Fetch](./misc/ajax.md#fetch-api)
- - Jest
+ - [Intro to ORM](./hibernate/intro-hibernate.md)
+ - [Hibernate Config](./hibernate/hibernate-config.md)
+ - [Querying with Hibernate](./hibernate/hibernate-querying.md)
 
 
 ---
